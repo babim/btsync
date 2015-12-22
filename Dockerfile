@@ -11,3 +11,6 @@ ADD start-btsync /usr/bin/start-btsync
 RUN chmod +x /usr/bin/start-btsync
 ENTRYPOINT ["start-btsync"] 
 LABEL co.tutum.yml="{ \"btsync\": { \"image\": \"tutum/btsync\", \"restart\": \"on-failure\", \"volumes_from\": [ \"<service-to-sync>\" ], \"target_num_containers\": \"<number-containers-sync>\", \"roles\": [ \"global\" ] } } "
+
+ENV TZ Asia/Ho_Chi_Minh
+ENV LC_ALL en_US.UTF-8
