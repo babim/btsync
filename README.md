@@ -1,6 +1,4 @@
-# tutum/btsync
-
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
+[![](https://images.microbadger.com/badges/image/babim/btsync.svg)](https://microbadger.com/images/babim/btsync "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/babim/btsync.svg)](https://microbadger.com/images/babim/btsync "Get your own version badge on microbadger.com")
 
 Synchronizes data folders between containers using BitTorrent Sync.
 
